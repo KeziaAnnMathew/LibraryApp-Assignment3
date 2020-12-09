@@ -5,7 +5,7 @@ function router(nav){
         res.render("addbook",{
             nav,
             title: 'Library',
-            heading: 'Add A Book'
+            heading: 'Add Book'
         });
     });
     addRouter.get('/addauthor',function(req,res){
